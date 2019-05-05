@@ -9,3 +9,5 @@ void UART0_Send(uint8 data)
     {};
 		UART0_DR_R = data ;
 }
+
+// puts data in data register of uart
